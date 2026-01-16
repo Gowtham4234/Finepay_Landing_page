@@ -7,9 +7,8 @@ This project focuses on clean UI design, structured layout, and frontend fundame
 
 ## 🌍 Live Demo
 
-https://USERNAME.github.io/finepay-landing-page/
+https://github.com/Gowtham4234/Ecomerce_Landing_page
 
-> Replace `USERNAME` with your GitHub username after deployment.
 
 ---
 
@@ -36,7 +35,24 @@ The landing page showcases features, pricing plans, onboarding steps, and contac
 
 ## 📁 Project Structure
 
-
+finepay-landing-page/
+│
+├── index.html
+├── landingstyle.css
+├── assets/
+│ ├── finepay.png
+│ ├── acc.png
+│ ├── bank.png
+│ ├── file1.png
+│ ├── shield.png
+│ ├── signal.png
+│ ├── aro.png
+│ ├── aw.png
+│ ├── x.png
+│ ├── lin.png
+│ └── face.png
+│
+└── README.md
 ---
 
 ## ✨ Features
@@ -96,4 +112,4 @@ The landing page showcases features, pricing plans, onboarding steps, and contac
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/USERNAME/finepay-landing-page.git
+   git clone https://github.com/Gowtham4234/Ecomerce_Landing_page.git
