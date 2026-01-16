@@ -9,6 +9,10 @@ This project focuses on clean UI design, structured layout, and frontend fundame
 
 https://github.com/Gowtham4234/Finepay_Landing_page
 
+## 📸 Preview
+
+![FinePay Landing Page Preview]
+(assets/preview.png)
 
 ---
 
@@ -31,28 +35,6 @@ The landing page showcases features, pricing plans, onboarding steps, and contac
 - **No JavaScript**
 - **No frameworks or libraries**
 
----
-
-## 📁 Project Structure
-
-Finepay-landing-page/
-│
-├── Finepay_page.html
-├── Finepay_page.css
-├── assets/
-│ ├── finepay.png
-│ ├── acc.png
-│ ├── bank.png
-│ ├── file1.png
-│ ├── shield.png
-│ ├── signal.png
-│ ├── aro.png
-│ ├── aw.png
-│ ├── x.png
-│ ├── lin.png
-│ └── face.png
-│
-└── README.md
 ---
 
 ## ✨ Features
