@@ -37,8 +37,8 @@ The landing page showcases features, pricing plans, onboarding steps, and contac
 
 Finepay-landing-page/
 │
-├── index.html
-├── landingstyle.css
+├── Finepay_page.html
+├── Finepay_page.css
 ├── assets/
 │ ├── finepay.png
 │ ├── acc.png
