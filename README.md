@@ -11,8 +11,7 @@ https://github.com/Gowtham4234/Finepay_Landing_page
 
 ## 📸 Preview
 
-![FinePay Landing Page Preview]
-(assets/preview.png)
+![FinePay Landing Page Preview](assets/preview.png)
 
 ---
 
