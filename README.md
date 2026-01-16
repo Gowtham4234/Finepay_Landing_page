@@ -7,7 +7,7 @@ This project focuses on clean UI design, structured layout, and frontend fundame
 
 ## 🌍 Live Demo
 
-https://github.com/Gowtham4234/Finepay_Landing_page/
+https://gowtham4234.github.io/Finepay_Landing_page/
 
 ## 📸 Preview
 
