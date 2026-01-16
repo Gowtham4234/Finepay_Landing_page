@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+
+  color:rgb(12, 48, 43);
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    margin: 10px;
+    background-color: #23aa9829;
+}
+.nav{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 5px;
+    height: 50px;
+    background-color: #a6ded6;
+
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.nav h2{
+    width: 25%;
+    font-size: 25px;
+}
+.nav .ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #168c8c;
+}
+.nav .login{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+.nav button{
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+.nav #s{
+    color: white;
+    background-color: #154d68;
+}
+.nav #l{
+    border: 1PX solid;
+    background-color: #fff;
+}
+
+#home{
+    border-radius: 7px;
+    background-color: rgb(240, 248, 255);
+    padding:10px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+
+.box1{
+    padding: 0 10px 10px 10px;
+    width: 40%;
+    margin-top: 40px;
+
+}
+.box1  p{
+    margin-top: 20px;
+    color: #5b605f;
+    line-height:1.5;
+}
+.box2{
+    display: flex;
+    margin-top: 25px;
+}
+.box1 input{
+    width: 60%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.box1 h2{
+    font-size: 30px;
+}
+
+.box1 button{
+    width:20%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color:rgb(16, 189, 184) ;
+}
+
+.paycard{
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    padding: 15px;
+    height: 12cm;
+}
+
+.card{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px rgb(216, 216, 216) solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.paycard button{
+    height: 0.7cm;
+    border-radius: 7px;
+    border: none;
+    background-color: #154d68;
+    color:#ffffff;
+}
+.na{
+   justify-content: start; 
+   height: 1.5cm;
+   gap: 15px;
+}
+
+.in{
+    display: inline;
+    height: 2cm;
+    padding: 6px 10px;
+}
+.in span{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.creditcard{
+    width: 18%;
+    height: 8.5cm;
+    background-color: #45b4b4fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    border-radius:15px;
+    margin-top: 50px;
+
+}
+.creditcard h6{
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+}
+.creditcard span {
+    font-size: 30px;
+    color: white;
+    padding: 15px 20px;
+}
+.creditcard .visa{
+    height: 3cm;
+    background-color: #154d68;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 25px;
+
+}
+
+.visa p{
+    font-size:25px;
+    color:white;
+}
+#pricing{
+    padding:50px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#pricing #price{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pricing h4{
+    color: #09bdbd;
+}
+#price p{
+    width: 35%;
+    font-size: 20px;
+    color: #5b605f;
+
+}
+
+#price h2{
+    width: 30%;
+    font-size: 40px;
+}
+
+#methods{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.box {
+    width: 30%;
+}
+.box h3{
+    margin-top: 10px;
+    font-size: 22px;
+}
+.box p{
+    color: #5b605f;
+    margin-top: 5px;
+}
+.box img{
+    width: 50px;
+    height: 50px;
+}
+
+#step{
+    background-color: #07374f;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+#stepbox{
+    display:flex;
+    justify-content: space-between;
+}
+
+#stepbox div{
+    background-color: #144963c2;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    margin-top: 30px;
+    transition: transform 500ms;
+}
+#stepbox div:hover{
+    transform: scale(1.05);
+}
+#step p{
+    color: white;
+    font-size: 50px;
+    width: 60%;
+}
+#step h4{
+    color: #09bdbd;
+    margin-bottom: 5px;
+}
+
+#stepbox p{
+    color: #72a2ad;
+    font-size: 15px;
+}
+#stepbox h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(168, 205, 211);
+}
+
+#stepbox h1{
+    font-size:60px;
+    background: linear-gradient(180deg,white,#3c7d8c);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.try{
+    background-color: #07374f;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tryp{
+    width: 50%;
+}
+.tryp h4{
+    color: #09bdbd;
+    margin-bottom: 5px;
+}
+#tryp1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#tryp2{
+    color: #72a2ad;
+    font-size: 15px;
+}
+
+.trybtn {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.trybtn button{
+    width:3.5cm;
+    height: 1.2cm;
+    border-radius: 10px;
+}
+#gbtn{
+    background-color: #2f969a;
+    color: white;
+    border: none;
+    margin-right: 5px;
+}
+#lbtn{
+    background-color: #07374f;
+    border: rgb(110, 144, 138) 1px solid;
+    color: white;
+}
+#plan{
+    margin-top: 30px;
+}
+.planchoose{
+    padding: 20px 0;
+    margin-top: 30px;
+}
+#plan h5{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #256b69;
+}
+.plancard{
+    display:flex;
+    justify-content: space-evenly;
+}
+.pcb{
+    width: 30%;
+    border-radius: 10px;
+    height: 5cm;
+    padding: 22px;
+    padding-top: 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.plus{
+    background-color: rgb(191, 206, 203);
+}
+.prem{
+    background-color: #39aba5;
+}
+
+.pp{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+#centercontact{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cc ul{
+    list-style: none;
+    height: 3cm;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer{
+    word-spacing: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid rgb(139, 171, 168);
+}
